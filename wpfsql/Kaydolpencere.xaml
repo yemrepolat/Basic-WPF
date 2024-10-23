@@ -1,0 +1,23 @@
+<Window x:Class="nesneproje.Kaydolpencere"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nesneproje"
+        mc:Ignorable="d"
+        Title="Kayıt ol" Height="450" Width="800">
+    <Grid Width="650" Height="550" Background="Yellow"> 
+                     <Label Content="Giriş yap" FontSize="35" HorizontalAlignment="Center"/>
+              <Label Content="İsim:" FontSize="20" Margin="175,175,0,0"/>
+              <Label Content="Soyisim:" FontSize="20" Margin="150,215,0,0"/>
+              <Label Content="Kullanıcı Adı:" FontSize="20" Margin="110,255,0,0"/>
+              <Label Content="Şifre:" FontSize="20" Margin="180,280,0,0"/>
+              <Label Content="Şifre tekrar:" FontSize="20" Margin="120,310,0,0"/>
+<TextBox Height="25" Width="150" HorizontalAlignment="Center" Name="isim" Margin="0,-155,0,0" />
+<TextBox Height="25" Width="150" HorizontalAlignment="Center" Name="soyisim" Margin="0,-75,0,0" />
+<TextBox Height="25" Width="150" HorizontalAlignment="Center" Name="kadi" />
+<PasswordBox Height="25" Width="150" HorizontalAlignment="Center" Name="sifre" Margin="0,65,0,0"  ToolTip="Password" PasswordChar="*" />
+<PasswordBox Height="25" Width="150" HorizontalAlignment="Center" Name="sifretekrar" Margin="0,120,0,0"  ToolTip="Password" PasswordChar="*" />
+<Button Name="kayitol" Content="Kayıt Ol" Height="50" HorizontalAlignment="Center"  Width="50" Margin="0,200,0,0" Click="kaydet" />
+    </Grid>
+</Window>

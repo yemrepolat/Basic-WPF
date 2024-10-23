@@ -1,0 +1,2 @@
+thread kullanılarak bizim hareketimizden bağımsız olacak düşmanın hareketi
+düşmanlar daha hızlı hareket edecek

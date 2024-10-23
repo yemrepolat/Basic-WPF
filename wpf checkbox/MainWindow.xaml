@@ -1,0 +1,24 @@
+﻿<Window x:Class="wipiief.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wipiief"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+    <TextBox Name="txt1"/>
+    <Button Name="dugme" Click="basildi" Height="20"/>
+    <CheckBox Name="checkbox0" Content="0" />
+    <CheckBox Name="checkbox1" Content="1" />
+    <CheckBox Name="checkbox2" Content="2" />
+    <CheckBox Name="checkbox3" Content="3" />
+    <CheckBox Name="checkbox4" Content="4" />
+    <CheckBox Name="checkbox5" Content="5" />
+    <CheckBox Name="checkbox6" Content="6" />
+    <CheckBox Name="checkbox7" Content="7" />
+    <CheckBox Name="checkbox8" Content="8" />
+    <CheckBox Name="checkbox9" Content="9" />
+
+    </StackPanel>
+</Window>

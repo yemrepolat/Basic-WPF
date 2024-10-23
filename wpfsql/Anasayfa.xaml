@@ -1,0 +1,16 @@
+<Window x:Class="nesneproje.Anasayfa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nesneproje"
+        mc:Ignorable="d"
+        Title="Ana Sayfa" Height="450" Width="800">
+    <Grid Width="650" Height="550" Background="Yellow"> 
+    <Label Content="Ana Sayfa" FontSize="35" HorizontalAlignment="Center" />
+    <Label Content="" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Name="isim" Margin="0,-155,0,0" />
+    <Label Content="" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Name="klimit" Margin="0,-80,0,0" />
+    <Button Name="kitapbutonu" Content="Kitap al" Height="50" HorizontalAlignment="Center"  Width="50" Margin="0,200,0,0" Click="kitapal" />
+<Button Name="kitabiad" Content="Kitap iade" Height="50"  HorizontalAlignment="Center"  Width="50" Margin="100,200,0,0" Click="kitapiade" />
+    </Grid>
+</Window>
